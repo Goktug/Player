@@ -587,7 +587,7 @@ extension Player {
         })
     }
 
-    func setupPlayerItem(_ playerItem: AVPlayerItem?) {
+    open func setupPlayerItem(_ playerItem: AVPlayerItem?) {
 
         self.removePlayerItemObservers()
 
